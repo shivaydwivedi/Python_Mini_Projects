@@ -1,34 +1,33 @@
-# To-Do List App
+### To-Do List App
 
-A simple command-line To-Do List application to help you manage your daily tasks.
+The To-Do List App is a simple command-line tool to manage daily tasks. Users can add, remove, view, and mark tasks as completed.
 
-## Features:
-1. **View Tasks**: Display all tasks with their status (completed or pending).
-2. **Add Task**: Add new tasks to your to-do list.
-3. **Mark Task as Completed**: Mark tasks as completed with a checkmark (`✔`).
-4. **Remove Task**: Delete tasks from the list.
-5. **Exit Option**: Quit the app.
+1. Features
+Add new tasks with a description.
+Mark tasks as completed.
+Delete tasks by index.
+View a list of pending and completed tasks.
+How to Use
+Run the script:
 
-## How to Run:
-1. Run the `todo_list.py` file:
-2. Follow the menu options to manage your tasks.
-
-## Example Usage:
+python todo_list.py
+Follow the menu options to manage your tasks.
+Example
 Welcome to the To-Do List App!
 
-To-Do List Menu:
+2. Menu:
 
-View tasks
-Add a task
-Mark a task as completed
-Remove a task
-Exit
-Enter your choice: 2 Enter the task: Buy groceries Task 'Buy groceries' added to the list.
+1. Add a task
+2. View tasks
+3. Mark task as completed
+4. Delete a task
+5. Exit
 
-To-Do List Menu:
+## Example
 
-View tasks
-Add a task
-Mark a task as completed
-Remove a task
-Exit
+Choose an option: 1
+Enter the task description: Complete Python project.
+
+Choose an option: 2
+Pending Tasks:
+1. Complete Python project

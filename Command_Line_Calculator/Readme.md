@@ -1,19 +1,26 @@
-# Enhanced Command Line Calculator
+### Command Line Calculator
 
-This is an advanced version of the command-line calculator with additional features like exponentiation and an interactive menu.
+The Command Line Calculator is a simple Python-based calculator that evaluates basic mathematical expressions directly from the command line. It's an excellent utility for quick and accurate calculations.
 
-## Features:
-1. Perform basic arithmetic operations (`+`, `-`, `*`, `/`).
-2. Handle advanced operations like exponentiation (`^`).
-3. Interactive menu for easy navigation.
-4. Quit the program anytime by entering `q`.
-5. Graceful handling of invalid input and division by zero.
+Features
+Supports basic operations: addition, subtraction, multiplication, and division.
+Handles operator precedence (e.g., * before +).
+Provides user-friendly input prompts.
+Error handling for invalid inputs or division by zero.
+How to Use
+Run the script:
 
-## How to Use:
-1. Run the `calculator.py` file.
-2. A menu will appear showing the available operations.
-3. Enter an operation (e.g., `+`, `-`, `^`, or `q` to quit).
-4. Enter the numbers for the calculation when prompted.
-5. The result will be displayed, and you can choose to continue or quit.
+python calculator.py
+Enter mathematical expressions (e.g., 5 + 3 * 2).
+The program evaluates and displays the result instantly.
+Example
 
-## Example:
+Welcome to the Command Line Calculator!
+Enter a mathematical expression (or type 'exit' to quit): 10 + 20 * 3
+Result: 70.0
+
+Enter a mathematical expression (or type 'exit' to quit): 10 / 0
+Error: Division by zero is not allowed.
+
+Enter a mathematical expression (or type 'exit' to quit): exit
+Goodbye!
